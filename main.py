@@ -21,7 +21,7 @@ if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model..."):
         gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
 
-model = load_model(MODEL_PATH)
+model = load_model(MODEL_PATH, compile=False)
 
 # Page config
 st.set_page_config(page_title="Skin Disease Detector", layout="centered")
