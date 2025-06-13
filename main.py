@@ -11,7 +11,7 @@ import matplotlib.cm as cm
 
 # ======== Download Model from Google Drive if not present ========
 MODEL_PATH = "skin_disease_model_balanced.h5"
-DRIVE_FILE_ID = "14W-HiBATLcptID4yf0tNjDoOW7WTQgn_"  # <-- PUT YOUR GOOGLE DRIVE FILE ID HERE!
+DRIVE_FILE_ID = "1_35zRAuPNcGlskRvZr_PxRv63z7qnpmd"  # <-- PUT YOUR GOOGLE DRIVE FILE ID HERE!
 
 if not os.path.exists(MODEL_PATH):
     gdown.download(
