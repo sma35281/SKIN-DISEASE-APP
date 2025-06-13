@@ -13,8 +13,8 @@ import io
 import gdown
 import os
 
-MODEL_PATH = "skin_disease_model_legacy.h5"
-MODEL_URL = "https://drive.google.com/file/d/1WyhWMxE89_ZM5xlwVEIOYeMo1XFnlKCN/view?usp=sharing"
+MODEL_PATH = "skin_disease_model_legacy.h5"   
+MODEL_URL = "https://drive.google.com/file/d/14W-HiBATLcptID4yf0tNjDoOW7WTQgn_/view?usp=sharing"
 
 # Download only if model doesn't already exist
 if not os.path.exists(MODEL_PATH):
