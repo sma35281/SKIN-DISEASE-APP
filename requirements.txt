@@ -2,7 +2,7 @@ streamlit
 tensorflow==2.12.0
 gdown
 numpy
-Pillow
+matplotlib
+pillow
 requests
 beautifulsoup4
-matplotlib
